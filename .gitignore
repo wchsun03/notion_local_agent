@@ -1,0 +1,11 @@
+.env
+.venv/
+state.db
+__pycache__/
+*.pyc
+.DS_Store
+agent_v*_backup.py
+agent_backup.py
+*_backup.py
+create_page_test.py
+test_notion.py

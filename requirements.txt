@@ -1,0 +1,7 @@
+python-dotenv
+requests
+ollama
+prompt_toolkit
+pypdf
+python-docx
+openpyxl
