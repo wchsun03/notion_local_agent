@@ -1,8 +1,22 @@
 # Local Notion AI Agent
 
-A local-first AI agent for macOS that combines Python, Ollama, local file access, SQLite memory, and the Notion API to manage Notion workspaces through natural-language instructions.
+A local-first AI agent for macOS that uses Ollama, Python, SQLite, local file access, and the Notion API to manage Notion workspaces through natural-language instructions.
 
-Current version: V5
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Ollama](https://img.shields.io/badge/Ollama-qwen3%3A8b-black)
+![Notion API](https://img.shields.io/badge/Notion-API-black)
+![SQLite](https://img.shields.io/badge/SQLite-Persistent%20Memory-lightgrey)
+![Platform](https://img.shields.io/badge/Platform-macOS-lightgrey)
+![Version](https://img.shields.io/badge/Version-v5.0.0-green)
+
+## What it does
+
+- Reads local PDF, DOCX, XLSX, CSV, TXT, and Markdown files
+- Creates and updates Notion pages and database records
+- Queries Notion databases with multi-condition filters
+- Preserves operational context with SQLite
+- Previews batch changes before execution
+- Imports spreadsheet data into Notion with explicit confirmation
 
 ---
 
